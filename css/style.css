@@ -1,0 +1,54 @@
+/*________________________________________________________________________________________
+BASE STYLES
+_________________________________________________________________________________________*/
+
+body,
+button,
+input,
+textarea {
+  color: black;
+  font-family: "Asap", sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+body {
+  background-color: #ededed;
+  margin: 0;
+  font-family: "Asap", sans-serif;
+  padding: 0;
+}
+
+header,
+footer {
+  height: 100px;
+  background-color: green;
+}
+
+.sidebar-right {
+  background-color: blue;
+  color: #fff;
+}
+
+h1 {
+  columns: red;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+@media screen and (min-width: 1120px) {
+  .content-area {
+    display: flex;
+  }
+
+  main {
+    padding: 1rem;
+  }
+
+  .sidebar-right {
+    padding: 1rem;
+  }
+}
